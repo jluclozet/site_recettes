@@ -2,21 +2,10 @@
     overflow: auto;
 }
 
-body{
+body {
     background-color: #8BA1BB;
     font-family: Arial;
     margin: 0;
-}
-
-p.categorie {
-    background-color: black;
-    color: white;
-    display: inline-block;
-    margin-top: -15px;
-    padding: 8px 18px;
-    margin-bottom: 0px;
-    font-weight: bold;
-    font-size: 16px;
 }
 
 div.contenu {
@@ -46,6 +35,17 @@ p.description {
 .centre {
     text-align: center;
     width: 100%;
+}
+
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -15px;
+    padding: 8px 18px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 div.categorie {
@@ -92,7 +92,7 @@ img.info {
     max-height: 400px;
     object-fit: cover;
     min-height: 200px;
-    background-color: lightgrey;
+    background-color: lightgray;
 }
 
 div.colonne {
@@ -121,10 +121,10 @@ div.colonne2 {
 div.ingredients p {
     text-align: center;
     font-size: 14px;
-    border: 1px solid lightgrey;
+    border: 1px solid lightgray ;
     padding: 8px 0;
     margin-top: 4px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 table.preparation p.numero {
